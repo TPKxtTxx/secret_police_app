@@ -1,0 +1,34 @@
+name: secret_police_app
+description: Una aplicación para policías secretos para registrar y gestionar incidencias de vigilancia y seguridad.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: "3.4.3"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.3
+  image_picker: ^0.8.5+3
+  path_provider: ^2.0.11
+  file_picker: ^8.0.6
+  flutter_sound: ^9.2.13+1
+  just_audio: ^0.9.22  # Usa la última versión de just_audio disponible
+  shared_preferences: ^2.0.15
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/officer_photo.png
+    - assets/policia_secreta.png
